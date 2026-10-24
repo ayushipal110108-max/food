@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Menu | CraveBite</title><meta name="description" content="CraveBite: Good Food. Great Mood. Demo food ordering website.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css"></head>
+<body data-page="menu"><main>
+<section class="sec"><div class="wrap"><h2>Our menu</h2><p class="sub">Search, filter and sort to find your next craving.</p>
+<div class="bar"><input id="q" type="search" placeholder="Search dishes by name" aria-label="Search dishes"><select id="sort" aria-label="Sort dishes"><option value="">Sort: Featured</option><option value="pa">Price: Low to High</option><option value="pd">Price: High to Low</option><option value="r">Rating: High to Low</option></select><button class="btn out sm" id="reset" type="button">Reset filters</button></div>
+<div class="chips" id="chips" role="group" aria-label="Categories"></div><p class="sub" id="count" aria-live="polite"></p><div class="grid" id="grid"><p class="load">Loading menu…</p></div></div></section>
+<dialog id="dlg" aria-label="Dish details"></dialog>
+</main>
+<script src="js/data.js"></script><script src="js/common.js"></script><script src="js/menu.js"></script>
+</body></html>
